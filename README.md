@@ -4,6 +4,6 @@
 ````
 #### Also use Nerd font
 #### Tofunmi
-<img src="./init.vim"/>
-<img src="./init.vim2"/>
-<img src="./init.vim3"/>
+<img src="./init.vim.png"/>
+<img src="./init.vim2.png"/>
+<img src="./init.vim3.png"/>
