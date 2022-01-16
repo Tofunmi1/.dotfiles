@@ -1,0 +1,15 @@
+No, you don't need any plugin. The default :vimgrep (or :vim) is all you need.
+
+Search for foo in every file in the current directory:
+
+:vim foo * | cw
+Search for foo in every JavaScript file in the current directory:
+
+:vim foo *.js | cw
+Search for foo in every JavaScript file in the current directory recursively:
+
+:vim foo **/*.js | cw
+Search for the current word in every file in the current directory:
+
+:vim <C-r><C-w> * | cw
+:vim <cword> * | cw

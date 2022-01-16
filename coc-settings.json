@@ -1,0 +1,27 @@
+{
+  "diagnostic.infoSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.errorSign": "",
+  "diagnostic.virtualText": false,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "diagnostic.virtualTextPrefix": "   ﱢ ",
+  "coc.preferences.formatOnSavaFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "graphql",
+    "python"
+  ],
+  "languageserver": {
+    // ...
+    "solidity": {
+      "command": "/usr/bin/solc",
+      "args": ["--lsp"],
+      "rootPatterns": [".git/"],
+      "filetypes": ["solidity"]
+    }
+  }
+}
